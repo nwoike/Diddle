@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="lib/extjs/resources/css/ext-all.css" />
+    <script type="text/javascript" src="lib/extjs/ext-all-debug.js"></script>
+	<script>
+		Ext.Loader.setConfig({
+			enabled: true,
+			paths: {
+				Ext: 'lib/extjs/src'
+			}
+		});
+		
+		var Diddle = { id: 'dynamic' };
+	
+		function update(html, css, javascript) {
+			Ext.util.CSS.removeStyleSheet(Diddle.id);
+			Ext.util.CSS.createStyleSheet(css, Diddle.id);
+			
+			Ext.core.DomHelper.overwrite(Ext.getBody(), html);
+
+			eval(javascript);
+		}
+		
+		function clear() {
+			Ext.util.CSS.removeStyleSheet(Diddle.id);	
+			Ext.core.DomHelper.overwrite(Ext.getBody(), '');
+		}
+	</script>
+</head>
+
+<body>
+</body>
+</html>

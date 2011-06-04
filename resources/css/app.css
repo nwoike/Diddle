@@ -1,0 +1,36 @@
+.fadingtitle {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-weight: bold;	
+	color: #333;
+	min-width: 80px;
+	text-align: center;
+	padding: 5px;
+	background-color: #fff5ee;
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-bottom-left-radius: 5px;
+	z-index: 2;
+}
+
+h1 { 
+	font-size: 26px;
+	font-family: arial;  
+}
+
+.x-btn .applicationgo {
+    background-image: url(../images/application_go.png) !important;
+}
+
+.x-btn .arrowundo {
+    background-image: url(../images/arrow_undo.png) !important;
+}
+
+.x-btn .disk {
+    background-image: url(../images/disk.png) !important;
+}
+
+.x-btn-default-medium-icon-text-left .x-btn-inner {
+	padding-left: 10px;
+}
