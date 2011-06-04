@@ -1,5 +1,5 @@
 Diddle
-ExtJS 4 Example Application 
+ExtJS 4 Example Application - (http://i.imgur.com/ozH06.png)
 
 Just a very simplified JSFiddle (http://jsfiddle.net/) clone. It uses CodeMirror 2 (http://codemirror.net/) for the syntax highlighting. 
 
@@ -12,5 +12,4 @@ Thanks to steffenk from the community forums. I borrowed most of your Ext.panel.
 Developer Notes:
  * I only tested this in Chrome11 and FF4.  
  * I still cannot get the SDK tools to work on my win7 machine so I don't know if I have all of the requires correctly defined.
- * I do not currently like how I implemented saving to local storage but could not find a better way to do it. 
- * I started a bug forum thread about the problem I had (http://www.sencha.com/forum/showthread.php?135643-Directly-loading-invalid-LocalStorage-record-throws-an-exception) but not sure if it is a bug or my own misunderstanding.
+ * I do not currently like how I implemented saving to local storage but could not find a better way to do it. I started a bug forum thread about the problem I had (http://www.sencha.com/forum/showthread.php?135643-Directly-loading-invalid-LocalStorage-record-throws-an-exception) but not sure if it is a bug or my own misunderstanding.
