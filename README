@@ -1,1 +1,16 @@
-Read me.
+Diddle
+ExtJS 4 Example Application 
+
+Just a very simplified JSFiddle (http://jsfiddle.net/) clone. It uses CodeMirror 2 (http://codemirror.net/) for the syntax highlighting. 
+
+Put the latest ExtJS 4 SDK into the lib\extjs directory.
+
+I wrote this to get a better grasp of ExtJS 4 and I was surprised how easy it was (for the most part). The application uses the new MVC architecture but is too simple to be a more useful MVC example than those already in the SDK. Still, I hope it can be used to learn from. Feel free to do whatever you want with the code, I will probably not be working on it anymore.
+
+Thanks to steffenk from the community forums. I borrowed most of your Ext.panel.iframePanel ux (http://dev.sk-typo3.de/ext4/own/iframe.html).
+
+Developer Notes:
+ * I only tested this in Chrome11 and FF4.  
+ * I still cannot get the SDK tools to work on my win7 machine so I don't know if I have all of the requires correctly defined.
+ * I do not currently like how I implemented saving to local storage but could not find a better way to do it. 
+ * I started a bug forum thread about the problem I had (http://www.sencha.com/forum/showthread.php?135643-Directly-loading-invalid-LocalStorage-record-throws-an-exception) but not sure if it is a bug or my own misunderstanding.
