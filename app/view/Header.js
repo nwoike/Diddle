@@ -28,8 +28,7 @@ Ext.define('Diddle.view.Header', {
 			{
 				xtype: 'component',
 				autoEl: {
-					tag: 'h1',
-					html: 'Diddle'
+					html: '<a target="_new" href="https://github.com/ykey/Diddle"><h1>Diddle</h1></a>'
 				}
 			}, 
 			{
