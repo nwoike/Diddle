@@ -3,7 +3,7 @@ Ext.require([
 	'Ext.layout.container.Border',
 	'Ext.MessageBox'
 ]);
-		
+	
 Ext.application({
     name: 'Diddle',
 	
@@ -11,7 +11,7 @@ Ext.application({
         'Main'
     ],
 	
-    launch: function() {		
+    launch: function() {				
 		Ext.create('Diddle.view.Viewport');	
 	}
 });
